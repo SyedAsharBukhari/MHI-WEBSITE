@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* nab start */
+.navbar {
+    width: 100%;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    background: #004C78;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.logo {
+    width: 111px;
+    height: 45px;
+}
+.navsrchbar{
+    width: 987px;
+height: 45px;
+border-radius: 100px;
+background-color: #346896;
+display: flex;
+align-items: center;
+justify-content: space-between;
+backdrop-filter: blur(0.1);
+}
+.navbarsrchsub{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 25px;
+gap: 15px;
+}
+.navbarsrchsub input{
+    outline: none;
+    border: none;
+    width: 127px;
+    height: 15px;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-weight: 400;
+}
+.navbarsrchsub input::placeholder {
+    color: #FFFFFF;
+}
+.navbarsrhbut{
+    background-color: #FFFFFF;
+    color: #346896;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    border-radius: 100px;
+}
+.navbarsrhbut button{
+border: none;
+background-color: transparent;
+font-weight: 600;
+font-size: 16px;
+color: #346896;
+}
+/* nav bar end */
+
+
+/* header start */
+.main{
+    width: 100%;
+    display: flex;
+}
+
+.headerleft{
+    width: 25%;
+height: 1268px;
+background: #F5F5F5;
+padding-top: 80px;
+display: flex;
+justify-content: end;
+}
+.headerleftsub{ 
+    width: 270px;
+}
+
+.headerfrst{
+justify-content: space-around;
+align-items: center;
+display: flex;
+text-align: center;
+}
+.hfrsth2{
+    font-size: 18px;
+    color: #132B38;
+}
+.hscndh2{
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+.headerfrstline{
+    margin: 10px auto;
+    width: 185px;
+border: 1px solid #132B381A;
+}
+.filterh{
+    margin: auto;
+    width: 180px;
+font-size: 16px;
+font-weight: 500;
+padding: 10px 0px;
+color: #004C78;
+}
+.Filterspices{
+    display: grid;
+    width: 180px;
+    margin: auto;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.ashar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.ashar h1{
+    height: 16px;
+    width: 16px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+}
+.ashar p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8D8D8D;
+}
+.Filterspices1{
+    width: 180px;
+    margin: auto;
+}
+#ashar2{
+margin-bottom: 10px;
+}
+.fltlsth{
+    font-size: 16px;
+    color: #8D8D8D;
+    margin: 10px auto;
+    width: 185px;
+    padding-top: 10px;
+}
+
+/* header end */
+
+
+
+/* site bar start */
+.sitebar{
+    width: 75%;
+    padding: 40px 80px;
+}
+.sitebarheadings{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.sitebarheadings h1{
+    font-size: 18px;
+    color: #132B38;
+font-weight: 600;
+}
+.sitebarbutton{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sitebarbutton p{
+    color: #878787;
+font-size: 16px;
+}
+.sitebarbutton button{
+    width: 91px;
+    height: 38px;
+border-radius: 100px;
+border: 1px solid #132B38;
+color: #132B38;
+background-color: transparent;
+font-size: 14px;
+font-weight: 600;
+}
+.hydrogenmolecule{
+    background-color: #004C781A;
+    width: 163px;
+height: 35px;
+border-radius: 100px;
+border: none;
+color: #132B38;
+}
+.sitebar_frstpara{
+    margin: 20px 0px;
+    
+    width: 700px;
+}
+.sitebar_frstpara h2{
+    color: #004C78;
+font-size: 24px;
+font-weight: 600;
+}
+.sitebar_frstpara p{
+font-size: 16px;
+padding: 10px 0px 15px 0px;
+font-weight: 400;
+line-height: 20.16px;
+}
+.sitebar_frstpara h3{
+color: #343434;
+font-size: 16px;
+font-weight: 600;
+}
+.sitebar_hr{
+
+    border: 1px solid #132B381A;
+    width: 870px;
+    margin: 30px auto 40px;
+}
+/* site bar end */
+
+/* footer start */
+.footerlast {
+    width: 100%;
+    height: 271px;
+    text-align: center;
+    background-color: #004C78;
+}
+
+.footerlast img {
+    margin: auto;
+    padding: 70px 0px 20px 0px;
+}
+
+.footerlast p {
+    width: 534px;
+    height: 54px;
+    margin: auto;
+    color: #DCF1FF;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* footer end */
